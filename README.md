@@ -4,15 +4,15 @@ A command line todo list built using logging in order to enable time travel. Thi
 
 Transactions representing additions and removals of to-do items are stored in [JSON Lines Format](http://jsonlines.org).
 
-# Add a to-do item
+## Add a to-do item
 `npm start add "TITLE HERE" "DESCRIPTION HERE"`
 
-# Remove a to-do item
+## Remove a to-do item
 `npm start remove IDHERE`
 
-# List current to-dos
+## List current to-dos
 `npm start ls`
 
-# List to-dos at some point in the past
+## List to-dos at some point in the past
 `npm start ls 2`
 Where the number is the amount of transactions you would like to turn back time on.
