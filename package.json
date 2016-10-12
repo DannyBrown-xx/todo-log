@@ -1,0 +1,17 @@
+{
+  "name": "todo-log",
+  "version": "1.0.0",
+  "description": "A system for keeping track of TODOs on the command line using a log -- this allows for time travel",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Brown <d.t.brown@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "moment": "^2.15.1",
+    "shortid": "^2.2.6"
+  }
+}
